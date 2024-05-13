@@ -1,0 +1,18 @@
+Project 2 -Merge Sort
+[16,21,11,8,12,22] -> Merge Sort
+1)	Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Step 1 : [16,21,11]    [8,12,22]    The array is divided into two parts
+Step 2 : [16,21]    [11]      [8,12]   [22]    Subarrays are further divided into smaller subarrays
+Step 3 : [16]    [21]   [11]   [8]  [12]  [22]   Each subarray is reduced to a single element
+Step 4 : [16,21]    [8,11]    [12,22]     Subarrays are sorted
+Step 5 : [8,11,16,21]   [12,22]    Subarrays are merged
+Step 6 : [8,11,12,16,21,22]    All arrays are merged
+2)	Big-O gösterimini yazınız.
+ Step 1 : n/2
+Step 2 : n/4
+Step 3 : n/8
+………….
+Step n : n/(2^n)
+In this way, the size of the subarrays is halved at each step, which results in logarithmic growth. Therefore, the total number of steps becomes log₂n, indicating that the Big-O notation of Merge Sort is O(n log n).
+
+
