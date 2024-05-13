@@ -1,0 +1,34 @@
+Project 3 – Binary Search Tree Project
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Step 1: My root is 5 .
+I place the elements smaller than it to the left of the root (5) and the elements larger than it to the right.
+Step 2:
+    I repeat the same process above at each step.
+                                                                                                    5
+                                                                                            /                     \
+                                                                                        3                            7
+                                                                                   /       \                    /       \
+                                                                               2             4                6             8
+                                                                            /                                                 \
+                                                                           1                 	                                   9
+                                                                          /
+                                                                        0
+The root node is 5.
+Nodes on the left side of 5:
+3 is to the left of 5.
+2 is to the left of 3.
+1 is to the left of 2.
+0 is to the left of 1.
+4 is to the right of 3.
+Nodes on the right side of 5:
+7 is to the right of 5.
+6 is to the left of 7.
+8 is to the right of 7.
+9 is to the right of 8.
+
+
+
+
+
+
+
